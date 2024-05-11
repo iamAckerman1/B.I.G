@@ -1,0 +1,17 @@
+from flask import Flask, request
+
+app = Flask(__name__)
+
+
+
+ap
+@app.route("/webhook", methods=['POST'])
+def webhook():
+    incoming_msg = request.form.get(
+    
+'Body', '').lower()
+    # Tulis kode untuk memproses pesan yang diterima di sini
+    return "Pesan yang diterima: " + incoming_msg
+
+if __name__ == "__main__":
+    app.run(debug=True)
