@@ -1,0 +1,44 @@
+// Dapatkan referensi ke elemen HTML
+const form = document.getElementById('generator-form');
+const input = document.getElementById('input');
+const resultDiv = document.getElementById('result');
+
+// Tambahkan event listener untuk mengirim formulir
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Mencegah pengiriman formulir
+
+    // Dapatkan nilai input pengguna
+    const userInput = input.value;
+
+    // Proses input pengguna
+    const generatedResult = generateResult(userInput);
+
+    
+
+  
+// Tampilkan hasil atau feedback kepada pengguna
+    
+    display
+displayResult(generatedResult);
+});
+
+
+});
+
+/
+// Fungsi untuk memproses input pengguna
+function generateResult(input) {
+    // Lakukan operasi atau kalkulasi apa pun yang diperlukan
+    // Misalnya, Anda dapat mengubah input menjadi huruf besar atau menghasilkan teks acak
+    return input.toUpperCase(); // Contoh sederhana: mengubah input menjadi huruf besar
+}
+
+// Fungsi untuk menampilkan hasil atau feedback kepada pengguna
+function displayResult(result) {
+    
+   
+// Ubah konten elemen resultDiv dengan hasil yang dihasilkan
+    resultDiv.
+ 
+textContent = 'Hasil: ' + result;
+}
