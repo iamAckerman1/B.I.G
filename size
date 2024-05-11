@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Reset CSS */
+* {
+    
+* {
+    
+margin: 0;
+    
+    
+padding: 0;
+    
+    
+box-sizing: border-box;
+}
+
+/* Styling header */
+header {
+    
+    
+background-color: #333;
+    color: #fff;
+    padding: 20px;
+    
+   
+text-align: center;
+}0857.1123.4535
+
+
+
+}
+/* Styling main content */
+main {
+    
+    
+max-width: 600px;
+    margin: 20px auto;
+    
+padding: 0 20px;
+}
+
+/* Styling form */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    
+margin-bottom: 10px;
+}
+
+input[type="text"] {
+    
+  
+width: 100%;
+    
+padding: 10px;
+    font-size: 16px;
+    
+border: 1px solid #ccc;
+    
+  
+border-radius: 5px;
+}
+
+
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    
+    
+color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling result */
+#result {
+    padding: 20px;
+    
+border: 1px solid #ccc;
+    border-radius: 5px;
+}
